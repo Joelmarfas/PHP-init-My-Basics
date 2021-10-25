@@ -14,7 +14,7 @@
   <pre>
   <?php 
     for ($i = 0; $i <=5; $i++){
-      echo "<p>Joel {$i} número de alvo</p>";
+      echo "<p>Joel {$i} número de calvo</p>";
     }
   ?>
 </pre>
