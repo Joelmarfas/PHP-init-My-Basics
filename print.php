@@ -14,24 +14,33 @@ it is important that you assign a complex value to analyze its potential -->
 </head>
 
 <body>
+
   <h1><?php echo "Echo functionality";?></h1>
   <h2><?php print "Print functionality";?></h2>
   <p>
   <pre>
   <?php
-  $a = array ("Assembler", "Assembleario", "Assemb");
+  $a = ["Assembler", "Assembleario", "Assemb"];
+print($a);
+echo "<br>";
+  $a = array("Assembler", "Assembleario", "Assemb");
+print($a);
+echo "<br>";
+  $a = array ("Assembler, Assembleario, Assemb");
 print_r($a);
 
 echo "<br>";
 
 $b = array("Yai"=>"35", "Kike"=>"37", "Joel"=>"43");
 print_r($b);
+$b = array("Yai=>35, Kike=>3, Joel=>43");
+print_r($b);
 
 echo "<br>";
 
-  $num = array(1,2,3,5);
+  $b = array(1,2,3,5);
 
-  print_r($num);
+  print_r($b);
   print("Joel Martínez ");
   ?>
 
